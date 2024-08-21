@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import menu_icon from "../../assets/menu.png";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo1.png";
 import search_icon from "../../assets/search.png";
 import more_icon from "../../assets/category.png";
 import notification_icon from "../../assets/notification.png";

@@ -92,7 +92,7 @@ const Sidebar = ({ sidebar, category, setCategory }) => {
         </div>
         <div className="side-link">
           <img src={mosh} alt="Mosh icon" />
-          <p>Programming with Mosh</p>
+          <p>Mosh</p>
         </div>
         <div className="side-link">
           <img src={badFriends} alt="badFriends icon" />
@@ -100,7 +100,7 @@ const Sidebar = ({ sidebar, category, setCategory }) => {
         </div>
         <div className="side-link">
           <img src={WebDevSimplified} alt="WebDevSimplified icon" />
-          <p>Web Dev Simplified</p>
+          <p>Web Simplified</p>
         </div>
         <div className="side-link">
           <img src={Crunchyroll} alt="Crunchyroll icon" />
