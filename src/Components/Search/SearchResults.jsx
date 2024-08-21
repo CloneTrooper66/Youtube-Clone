@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { API_KEY } from "../../data";
+import { API_KEY } from "../../data.js";
 import "./SearchResults.css";
 import moment from "moment";
 
