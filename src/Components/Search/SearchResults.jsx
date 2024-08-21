@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { API_KEY } from "../../data.js";
+// import { API_KEY } from "../../data.js";
 import "./SearchResults.css";
 import moment from "moment";
 
 const SearchResults = () => {
+  const API_KEY = import.meta.env.VITE_API_KEY;
   const { searchTerm } = useParams();
   const [videos, setVideos] = useState([]);
 

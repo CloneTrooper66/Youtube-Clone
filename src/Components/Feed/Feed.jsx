@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Feed.css";
 import thumbnail1 from "../../assets/thumbnail1.png";
 import { Link } from "react-router-dom";
-import { API_KEY } from "../../data";
+// import { API_KEY } from "../../data";
 import moment from "moment";
 // import thumbnail2 from "../../assets/thumbnail2.png";
 // import thumbnail3 from "../../assets/thumbnail3.png";
@@ -13,6 +13,7 @@ import moment from "moment";
 // import thumbnail8 from "../../assets/thumbnail8.png";
 
 const Feed = ({ category }) => {
+  const API_KEY = import.meta.env.VITE_API_KEY;
   const [data, setData] = useState([]);
 
   const fetchData = async () => {

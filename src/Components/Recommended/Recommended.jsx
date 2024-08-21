@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
 import "./Recommended.css";
-import { API_KEY } from "../../data";
+// import { API_KEY } from "../../data";
 import { Link } from "react-router-dom";
 
 const Recommended = ({ categoryId }) => {
+  const API_KEY = import.meta.env.VITE_API_KEY;
   const [apiData, setApiData] = useState([]);
 
   const fetchData = async () => {

@@ -5,11 +5,12 @@ import like from "../../assets/like.png";
 import dislike from "../../assets/dislike.png";
 import share from "../../assets/share.png";
 import save from "../../assets/save.png";
-import { API_KEY } from "../../data.js";
+// import { API_KEY } from "../../data.js";
 import moment from "moment";
 import { useParams } from "react-router";
 
 const PlayVideo = () => {
+  const API_KEY = import.meta.env.VITE_API_KEY;
   const { videoId } = useParams();
 
   const [apiData, setApiData] = useState(null);
