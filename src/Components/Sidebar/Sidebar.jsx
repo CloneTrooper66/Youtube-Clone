@@ -86,26 +86,39 @@ const Sidebar = ({ sidebar, category, setCategory }) => {
       </div>
       <div className="subscribed-list">
         <h3>Subscribed</h3>
-        <div className="side-link">
-          <img src={Fireship} alt="Fireship icon" />
-          <p>Fireship</p>
-        </div>
-        <div className="side-link">
-          <img src={mosh} alt="Mosh icon" />
-          <p>Mosh</p>
-        </div>
-        <div className="side-link">
-          <img src={badFriends} alt="badFriends icon" />
-          <p>Bad Friends</p>
-        </div>
-        <div className="side-link">
-          <img src={WebDevSimplified} alt="WebDevSimplified icon" />
-          <p>Web Simplified</p>
-        </div>
-        <div className="side-link">
-          <img src={Crunchyroll} alt="Crunchyroll icon" />
-          <p>Crunchyroll</p>
-        </div>
+        <a href="https://www.youtube.com/@Fireship" target="blank">
+          <div className="side-link">
+            <img src={Fireship} alt="Fireship icon" />
+            <p>Fireship</p>
+          </div>
+        </a>
+        <a href="https://www.youtube.com/@programmingwithmosh" target="blank">
+          <div className="side-link">
+            <img src={mosh} alt="Mosh icon" />
+            <p>Mosh</p>
+          </div>
+        </a>
+        <a
+          href="https://www.youtube.com/results?search_query=bad+friends"
+          target="blank"
+        >
+          <div className="side-link">
+            <img src={badFriends} alt="badFriends icon" />
+            <p>Bad Friends</p>
+          </div>
+        </a>
+        <a href="https://www.youtube.com/@WebDevSimplified" target="blank">
+          <div className="side-link">
+            <img src={WebDevSimplified} alt="WebDevSimplified icon" />
+            <p>Web Simplified</p>
+          </div>
+        </a>
+        <a href="https://www.youtube.com/@crunchyroll" target="blank">
+          <div className="side-link">
+            <img src={Crunchyroll} alt="Crunchyroll icon" />
+            <p>Crunchyroll</p>
+          </div>
+        </a>
       </div>
     </div>
   );
