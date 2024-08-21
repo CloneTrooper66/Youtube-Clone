@@ -109,7 +109,7 @@ const PlayVideo = () => {
       </div>
       <div className="video-description">
         <p>
-          {apiData ? apiData.snippet.description.slice(0, 250) : "Description"}
+          {apiData ? apiData.snippet.description.slice(0, 450) : "Description"}
         </p>
         <hr />
         <h4>
